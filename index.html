@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CraveLab | Create Your Own Dessert Experience</title>
+  <meta name="description" content="CraveLab is a dessert customization platform for cakes, pastries, donuts, brownies, croissants, premium treats, and calorie-aware dessert discovery." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <div class="brand-wrap">
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+        <a href="#home" class="brand">
+          <span class="brand-logo">
+            <img src = "C:\Users\bhara\Desktop\round logog.png"/>
+          </span>
+          <span>
+            <strong>CraveLab</strong>
+            <small>Create your own dessert experience</small>
+          </span>
+        </a>
+      </div>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#shop">Shop</a>
+        <a href="#bake">BakeYourOwnCake</a>
+        <a href="#cravewise">CraveWise</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="wishlistBtn" aria-label="Wishlist">♡ <span id="wishlistCount">0</span></button>
+        <button class="icon-btn" id="accountBtn" aria-label="My account">👤</button>
+        <button class="cart-btn" id="cartBtn" aria-label="Open cart">Cart <span id="cartCount">0</span></button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy">
+          <span class="eyebrow">Premium dessert personalization platform</span>
+          <h1>Design dreamy desserts, order instantly, and celebrate your way.</h1>
+          <p>
+            CraveLab combines boutique dessert aesthetics with a modern online experience.
+            Shop cakes, pastries, donuts, and more — or build something custom for your loved ones on thier special day.
+          </p>
+          <div class="hero-actions">
+            <a href="#shop" class="btn btn-primary">Order Now</a>
+            <a href="#bake" class="btn btn-secondary">Customize Now</a>
+          </div>
+          <div class="hero-stats">
+            <article>
+              <strong>40+</strong>
+              <span>dessert choices</span>
+            </article>
+            <article>
+              <strong>5</strong>
+              <span>major categories</span>
+            </article>
+          </div>
+        </div>
+        <div class="hero-card glass-card">
+          <div class="hero-card-top">
+            <span>Today’s Bestseller</span>
+            <strong>Ferrero Rocher Cake</strong>
+          </div>
+          <div class="hero-price">From ₹500</div>
+          <ul>
+            <li>Luxury layered chocolate finish</li>
+            <li>Personalized message support</li>
+            <li>Same-site cart + wishlist</li>
+          </ul>
+          <button class="btn btn-primary add-featured" data-product-id="cake-ferrero-rocher">Add Bestseller</button>
+        </div>
+      </section>
+
+      <section class="section feature-strip">
+        <div class="feature-card">
+          <span>🎨</span>
+          <h3>Creative Customization</h3>
+          <p>Choose flavors, event themes, toppings, tiers, and finishing details.</p>
+        </div>
+        <div class="feature-card">
+          <span>⚡</span>
+          <h3>Fast Checkout</h3>
+          <p>Add products to cart, adjust quantity, and generate a quick order summary instantly.</p>
+        </div>
+        <div class="feature-card">
+          <span>🧁</span>
+          <h3>Wide Dessert Range</h3>
+          <p>Cakes, pastries, donuts, croissants, brownies, dessert platters, waffles, and more.</p>
+        </div>
+        <div class="feature-card">
+          <span>💖</span>
+          <h3>CraveWise Picks</h3>
+          <p>See calorie estimates and dessert suggestions based on mood, event, or dietary preference; And even AI Recommendations.</p>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-heading">
+          <span class="eyebrow">About CraveLab</span>
+          <h2>A creative dessert brand built for modern celebrations.</h2>
+        </div>
+        <div class="about-grid">
+          <article class="glass-card">
+            <h3>Our Positioning</h3>
+            <p>
+              CraveLab is designed for young adults, students, working professionals, and celebration-first customers who want premium desserts with a personal touch.
+            </p>
+          </article>
+          <article class="glass-card">
+            <h3>What We Offer</h3>
+            <p>
+              Custom celebration desserts, mini desserts & bites, premium treats, healthy/eggless options, and festive specials — all presented through a seamless digital store.
+            </p>
+          </article>
+          <article class="glass-card">
+            <h3>Why It Works</h3>
+            <p>
+              Responsive design, easy navigation, fast ordering, customization flows, clear category browsing, and a warm dessert-inspired visual identity.
+            </p>
+          </article>
+          <article class="glass-card persona-card">
+            <h3>Buyer Personas</h3>
+            <ul>
+              <li><strong>Student Sara</strong> — birthday cakes, brownies, donuts, budget-friendly gifting</li>
+              <li><strong>Planner Priya</strong> — wedding/event dessert tables, premium boxes</li>
+              <li><strong>Professional Arjun</strong> — quick office celebrations, elegant add-ons, calorie-aware options</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="shop">
+        <div class="section-heading with-actions">
+          <div>
+            <span class="eyebrow">Shop</span>
+            <h2>Browse the menu and add your favorites.</h2>
+          </div>
+          <div class="shop-tools">
+            <input type="text" id="searchInput" placeholder="Search desserts, flavors, categories..." />
+            <select id="categoryFilter">
+              <option value="all">All Categories</option>
+            </select>
+            <select id="sortSelect">
+              <option value="default">Sort By</option>
+              <option value="price-asc">Price: Low to High</option>
+              <option value="price-desc">Price: High to Low</option>
+              <option value="name-asc">Name: A to Z</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="category-chips" id="categoryChips"></div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+
+      <section class="section" id="bake">
+        <div class="section-heading">
+          <span class="eyebrow">BakeYourOwnCake</span>
+          <h2>Interactive dessert planning with guided sessions.</h2>
+        </div>
+
+        <div class="bake-grid">
+          <form class="glass-card form-card" id="bakeForm">
+            <h3>Plan Your Session</h3>
+            <div class="field-grid">
+              <label>
+                Occasion
+                <select name="occasion" required>
+                  <option value="Birthday">Birthday</option>
+                  <option value="Wedding">Wedding</option>
+                  <option value="Anniversary">Anniversary</option>
+                  <option value="Baby Shower">Baby Shower</option>
+                  <option value="Corporate Event">Corporate Event</option>
+                  <option value="Festive Celebration">Festive Celebration</option>
+                </select>
+              </label>
+              <label>
+                Skill Level
+                <select name="skill" required>
+                  <option value="Beginner">Beginner</option>
+                  <option value="Intermediate">Intermediate</option>
+                  <option value="Advanced">Advanced</option>
+                </select>
+              </label>
+              <label>
+                Dessert Type
+                <select name="dessertType" required>
+                  <option value="Theme Cake">Theme Cake</option>
+                  <option value="Layer Cake">Layer Cake</option>
+                  <option value="Cupcake Box">Cupcake Box</option>
+                  <option value="Dessert Jar">Dessert Jar</option>
+                  <option value="Brownie Stack">Brownie Stack</option>
+                </select>
+              </label>
+              <label>
+                Number of Tiers
+                <input type="number" name="tiers" min="1" max="5" value="1" required />
+              </label>
+              <label>
+                Decorative Complexity (1–10)
+                <input type="range" name="complexity" min="1" max="10" value="4" />
+              </label>
+              <label>
+                Serves (approx.)
+                <input type="number" name="serves" min="2" max="300" value="10" required />
+              </label>
+              <label class="full-span">
+                Inspiration Upload
+                <input type="file" id="cakeImageInput" accept="image/*" />
+              </label>
+              <label class="full-span">
+                Design Notes
+                <textarea name="notes" rows="4" placeholder="Describe colors, theme, text, ingredients, preferred frosting, decorations..."></textarea>
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary full-width">Analyze Cake Plan</button>
+          </form>
+
+          <div class="glass-card result-card">
+            <h3>Smart Bake Result</h3>
+            <div id="uploadPreview" class="upload-preview">Upload inspiration image to preview here.</div>
+            <div id="bakeResult" class="bake-result">
+              Fill the planner to see recommended session count, booking estimate, learning path, and ready-made fallback pricing.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="cravewise">
+        <div class="section-heading">
+          <span class="eyebrow">CraveWise</span>
+          <h2>Calorie-aware dessert recommendations.</h2>
+        </div>
+
+        <div class="cravewise-grid">
+          <form class="glass-card form-card" id="calorieForm">
+            <h3>Find Your Match</h3>
+            <div class="field-grid">
+              <label>
+                Daily Calorie Goal
+                <input type="number" name="goal" min="800" max="6000" value="2000" required />
+              </label>
+              <label>
+                Calories Remaining Today
+                <input type="number" name="remaining" min="50" max="3000" value="500" required />
+              </label>
+              <label>
+                Preference
+                <select name="preference">
+                  <option value="Any">Any</option>
+                  <option value="Chocolate">Chocolate</option>
+                  <option value="Fruit">Fruit</option>
+                  <option value="Creamy">Creamy</option>
+                  <option value="Nutty">Nutty</option>
+                  <option value="Budget">Budget-friendly</option>
+                </select>
+              </label>
+              <label>
+                Occasion
+                <select name="occasion">
+                  <option value="Casual Craving">Casual Craving</option>
+                  <option value="Birthday">Birthday</option>
+                  <option value="Office Celebration">Office Celebration</option>
+                  <option value="Date Night">Date Night</option>
+                  <option value="Family Gathering">Family Gathering</option>
+                </select>
+              </label>
+            </div>
+            <button class="btn btn-primary full-width" type="submit">Get Suggestions</button>
+          </form>
+
+          <div class="glass-card">
+            <h3>Recommendation Board</h3>
+            <div id="cravewiseResult" class="recommendation-list">
+              Enter your calorie details to see the best dessert options.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonials">
+        <div class="section-heading">
+          <span class="eyebrow">Experience</span>
+          <h2>Built for engagement, conversions, and repeat orders.</h2>
+        </div>
+        <div class="testimonial-grid">
+          <article class="glass-card">
+            <h3>Traffic Goal</h3>
+            <p>SEO-friendly category organization and strong homepage CTAs improve discoverability.</p>
+          </article>
+          <article class="glass-card">
+            <h3>Engagement Goal</h3>
+            <p>Interactive tools like BakeYourOwnCake and CraveWise increase time on site and repeat visits.</p>
+          </article>
+          <article class="glass-card">
+            <h3>Order Goal</h3>
+            <p>Smart cart, quick checkout, wishlist, and category filters help push more purchases smoothly.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="section-heading">
+          <span class="eyebrow">Contact</span>
+          <h2>Let’s plan your next sweet celebration.</h2>
+        </div>
+        <div class="contact-grid">
+          <form class="glass-card form-card" id="contactForm">
+            <h3>Send an Inquiry</h3>
+            <div class="field-grid">
+              <label>
+                Full Name
+                <input type="text" name="name" required />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" required />
+              </label>
+              <label>
+                Phone
+                <input type="tel" name="phone" required />
+              </label>
+              <label>
+                Event Date
+                <input type="date" name="date" />
+              </label>
+              <label class="full-span">
+                Message
+                <textarea name="message" rows="5" placeholder="Tell us what you want to order or customize..." required></textarea>
+              </label>
+            </div>
+            <button class="btn btn-primary full-width" type="submit">Send Message</button>
+          </form>
+
+          <div class="glass-card contact-info">
+            <h3>Customer Support</h3>
+            <p><strong>Address:</strong> CraveLab Studio, 2nd lfoor, Dwaraka Plaza, VIP Road, Siripuram, Vishakhapatnam, Andhra Pradesh - 530003</p>
+            <p><strong>WhatsApp:</strong> +91 90000 12345</p>
+            <p><strong>Email:</strong> hello@cravelab.com</p>
+            <p><strong>Hours:</strong> 9 AM – 10 PM, all days</p>
+            <div class="support-note">
+              <strong>Need help faster?</strong>
+              <p>Use the cart to prepare your order and then share the generated summary with your team or baker.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>CraveLab</strong>
+        <p>Personalized desserts for every occasion.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">FAQ</a>
+        <a href="#tracker">Track Your Order</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Shipping & Delivery</a>
+        <a href="#">Cancellation & Refund</a>
+        <a href="#">Allergen Disclaimer</a>
+      </div>
+    </footer>
+  </div>
+
+  <aside class="side-panel" id="cartPanel" aria-hidden="true">
+    <div class="side-panel-header">
+      <h3>Your Cart</h3>
+      <button class="close-panel" data-close="cartPanel">✕</button>
+    </div>
+    <div id="cartItems" class="panel-body"></div>
+    <div class="panel-footer">
+      <div class="summary-row"><span>Subtotal</span><strong id="cartSubtotal">₹0</strong></div>
+      <div class="summary-row"><span>Delivery</span><strong>₹99</strong></div>
+      <div class="summary-row total"><span>Total</span><strong id="cartTotal">₹99</strong></div>
+      <button class="btn btn-primary full-width" id="checkoutBtn">Proceed to Checkout</button>
+      <button class="btn btn-secondary full-width" id="clearCartBtn">Clear Cart</button>
+    </div>
+  </aside>
+
+  <aside class="side-panel" id="wishlistPanel" aria-hidden="true">
+    <div class="side-panel-header">
+      <h3>Your Wishlist</h3>
+      <button class="close-panel" data-close="wishlistPanel">✕</button>
+    </div>
+    <div id="wishlistItems" class="panel-body"></div>
+  </aside>
+
+  <aside class="side-panel" id="accountPanel" aria-hidden="true">
+    <div class="side-panel-header">
+      <h3>My Account</h3>
+      <button class="close-panel" data-close="accountPanel">✕</button>
+    </div>
+    <div class="panel-body account-body">
+      <form id="accountForm" class="stack-form">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="Your email" required />
+        </label>
+        <label>
+          Phone
+          <input type="tel" name="phone" placeholder="Your phone" required />
+        </label>
+        <button class="btn btn-primary full-width" type="submit">Save Profile</button>
+      </form>
+
+      <div class="account-mini-cards">
+        <article>
+          <strong>Order History</strong>
+          <p id="orderHistoryText">No orders placed yet.</p>
+        </article>
+        <article id="tracker">
+          <strong>Order Tracking</strong>
+          <div class="tracker-row">
+            <input type="text" id="trackingInput" placeholder="Enter mock order ID e.g. CL-1001" />
+            <button class="btn btn-secondary" id="trackOrderBtn">Track</button>
+          </div>
+          <p id="trackingResult">Tracking will appear here.</p>
+        </article>
+        <article>
+          <strong>Saved Designs</strong>
+          <p id="savedDesignsText">No saved designs yet. Use BakeYourOwnCake to generate one.</p>
+        </article>
+      </div>
+    </div>
+  </aside>
+
+  <dialog id="checkoutModal">
+    <form method="dialog" class="checkout-modal">
+      <div class="side-panel-header">
+        <h3>Checkout Summary</h3>
+        <button class="close-panel">✕</button>
+      </div>
+      <div id="checkoutSummary" class="panel-body"></div>
+      <div class="field-grid checkout-grid">
+        <label>
+          Delivery Address
+          <textarea id="checkoutAddress" rows="3" placeholder="Enter full address" required></textarea>
+        </label>
+        <label>
+          Payment Method
+          <select id="paymentMethod">
+            <option>Cash on Delivery</option>
+            <option>UPI</option>
+            <option>Credit / Debit Card</option>
+          </select>
+        </label>
+      </div>
+      <button id="placeOrderBtn" class="btn btn-primary full-width" type="button">Place Mock Order</button>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
